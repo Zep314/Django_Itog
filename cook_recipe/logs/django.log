@@ -1,0 +1,16 @@
+INFO 2023-10-25 14:24:55,701 create_author 24888 33436 Successfully create client: Name: 'Petya', Login: petya, Password: aab62d83d34c74189c8b7ce4cff5bcaaa0c6921cfb2b34b24a6ba74767272a89, Register date: 2023-10-25 11:24:55.697300+00:00
+INFO 2023-10-25 14:45:46,446 clear_all 34132 29520 Clear all data in Category_Receipe table!
+INFO 2023-10-25 14:45:46,446 clear_all 34132 29520 Clear all data in Category table!
+INFO 2023-10-25 14:45:46,447 clear_all 34132 29520 Clear all data in Receipe table!
+INFO 2023-10-25 14:45:46,455 clear_all 34132 29520 Clear all data in Author table!
+INFO 2023-10-25 14:46:10,303 create_author 24888 34160 Successfully create client: Name: 'Petya', Login: petya, Password: aab62d83d34c74189c8b7ce4cff5bcaaa0c6921cfb2b34b24a6ba74767272a89, Register date: 2023-10-25 11:46:10.299831+00:00
+INFO 2023-10-25 15:07:36,722 create_category 12832 15408 Successfully create category: Name: Торты
+INFO 2023-10-25 15:09:31,514 create_recipe 16740 34136 Successfully create recipe: Name: 'Торт с вишней', Description: Самый вкусный торт в мире, Roadmap: 'Берем тесто - печем торт', Required time: '50', Author: Name: 'Petya', Login: petya, Password: aab62d83d34c74189c8b7ce4cff5bcaaa0c6921cfb2b34b24a6ba74767272a89, Register date: 2023-10-25 11:46:10.299831+00:00
+INFO 2023-10-25 15:20:42,960 create_category_recipe 22324 29176 Successfully create link between category and recipe: Category: Name: Торты, Recipe:Name: 'Торт с вишней', Description: Самый вкусный торт в мире, Roadmap: 'Берем тесто - печем торт', Required time: '50', Author: Name: 'Petya', Login: petya, Password: aab62d83d34c74189c8b7ce4cff5bcaaa0c6921cfb2b34b24a6ba74767272a89, Register date: 2023-10-25 11:46:10.299831+00:00
+INFO 2023-10-25 15:32:34,951 views 15468 4440 Index page accessed! Redirect to /recipes/
+INFO 2023-10-25 15:59:02,887 views 33480 14468 Index page accessed! Redirect to /recipes/
+INFO 2023-10-25 15:59:35,929 views 12852 33372 Index page accessed! Redirect to /recipes/
+INFO 2023-10-25 16:00:36,072 views 8544 26636 Index page accessed! Redirect to /recipes/
+INFO 2023-10-25 16:01:15,184 views 19908 17176 Index page accessed! Redirect to /recipes/
+INFO 2023-10-25 16:51:55,583 views 12632 32096 Index page accessed! Redirect to /recipes/
+INFO 2023-10-25 17:18:45,522 views 23412 14600 Index page accessed! Redirect to /lastday/0/7
