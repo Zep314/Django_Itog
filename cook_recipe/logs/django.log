@@ -15,3 +15,12 @@ INFO 2023-10-25 16:01:15,184 views 19908 17176 Index page accessed! Redirect to 
 INFO 2023-10-25 16:51:55,583 views 12632 32096 Index page accessed! Redirect to /recipes/
 INFO 2023-10-25 17:18:45,522 views 23412 14600 Index page accessed! Redirect to /lastday/0/7
 INFO 2023-10-25 17:43:23,265 views 21208 17236 Index page accessed! Redirect to /lastday/0/7
+INFO 2023-10-25 17:53:59,267 views 242152 140435514734144 Index page accessed! Redirect to /lastday/0/7
+INFO 2023-10-25 18:22:54,206 views 246089 139631104628288 Index page accessed! Redirect to /lastday/0/7
+INFO 2023-10-25 19:12:50,627 create_category 253036 140288916811776 Successfully create category: Name: 'Торты'
+INFO 2023-10-25 19:17:53,957 create_category 253804 140265134751744 Successfully create category: Name: 'Торты'
+INFO 2023-10-25 19:18:02,876 create_recipe 253825 139644996071424 Successfully create recipe: Name: 'Вишнеый торт', Description: 'Самый вкусный из тортов', Roadmap: 'Берем тесто и печечм торт', Required time: 50, Image: вишневый торт.png, Author: admin
+INFO 2023-10-25 19:19:36,451 create_category_recipe 254064 140554928988160 Successfully create link between category and recipe: Category_Recipe object (1)
+INFO 2023-10-25 19:44:50,358 views 257430 139866305197632 Index page accessed! Redirect to /lastday/0/7
+INFO 2023-10-25 19:46:04,126 views 257430 139866305197632 Index page accessed! Redirect to /lastday/0/7
+INFO 2023-10-25 20:41:28,840 views 257430 139866037790272 Index page accessed! Redirect to /lastday/0/7

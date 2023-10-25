@@ -1,9 +1,20 @@
-{% extends "website/home.html" %}
+{% extends "website/base.html" %}
+
+{% block title %}
+Выход
+{% endblock %}
+
+{% block header %}
+Выход
+{% endblock %}
+
 {% block content %}
     <h2>Вы вышли из своей учетной записи</h2>
-    <div class="border-top pt-3">
+    <div class="border-top pt-3" style="margin-bottom: 30px;">
         <small class="text-muted">
-            <a href="{% url 'login' %}">Войти</a>
+            <form action="/login/">
+                <input type="submit" class="btn btn-primary" value="Войти">
+            </form>
         </small>
     </div>
 {% endblock content %}

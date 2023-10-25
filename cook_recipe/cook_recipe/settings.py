@@ -201,6 +201,7 @@ INTERNAL_IPS = [
     '127.0.0.1',  # Панель DjDT будет отображаться только на локальной машине
 ]
 
-
-
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+LOGIN_REDIRECT_URL = 'home'
+LOGIN_URL = 'login'

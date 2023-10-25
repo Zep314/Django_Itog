@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from ...models import Author, Recipe, Category_Receipe, Category
+from ...models import Recipe, Category_Recipe, Category
 
 import logging
 
@@ -13,10 +13,10 @@ class Command(BaseCommand):
 
     def handle(self, *args, **kwargs):
 
-        category_recipes = Category_Receipe.objects.all()
+        category_recipes = Category_Recipe.objects.all()
         for category_recipe in category_recipes:
             category_recipe.delete()
-        logger.info('Clear all data in Category_Receipe table!')
+        logger.info('Clear all data in Category_Recipe table!')
 
         categorys = Category.objects.all()
         for category in categorys:
@@ -28,8 +28,4 @@ class Command(BaseCommand):
             recipe.delete()
         logger.info('Clear all data in Receipe table!')
 
-        authors = Author.objects.all()
-        for author in authors:
-            author.delete()
-        logger.info('Clear all data in Author table!')
 

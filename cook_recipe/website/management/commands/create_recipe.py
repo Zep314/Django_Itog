@@ -1,5 +1,6 @@
 from django.core.management.base import BaseCommand
-from ...models import Recipe, Author
+from ...models import Recipe
+from django.contrib.auth.models import User
 import logging
 
 logger = logging.getLogger(__name__)
@@ -27,7 +28,7 @@ class Command(BaseCommand):
         image = kwargs.get('image')
         author_id = kwargs.get('author_id')
 
-        author = Author.objects.filter(pk=author_id).first()
+        author = User.objects.filter(pk=author_id).first()
 
         recipe = Recipe(name=name, description=description, roadmap=roadmap,
                         req_time=req_time, image=image, author=author)
