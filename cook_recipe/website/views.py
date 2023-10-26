@@ -1,6 +1,7 @@
 from django.shortcuts import render, redirect
 import logging
 from django.views import View
+from .models import Recipe
 
 # Create your views here.
 
@@ -13,10 +14,10 @@ def index(request):
     :param request:
     :return:
     """
-    logger.info('Index page accessed! Redirect to /lastday/0/7')
-    return redirect("/home")
+    logger.info('Index page accessed! Redirect to /recipes')
+    return redirect("/recipes")
 
-class Home(View):
+class Recipes(View):
     """
     Класс - форма вывода содержимого базы данных по запросу
     """
@@ -26,6 +27,8 @@ class Home(View):
         :param request: django объект - запрос
         :return:
         """
+        recipes = Recipe.objects.all()
 
-        context = {}
+        context = { 'recipes': recipes,
+                    }
         return render(request, 'website/recipes.html', context)
