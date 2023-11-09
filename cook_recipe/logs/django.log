@@ -36,3 +36,53 @@ INFO 2023-10-26 09:35:15,526 views 29168 37436 Index page accessed! Redirect to 
 INFO 2023-10-26 09:36:14,065 views 29168 38108 Index page accessed! Redirect to /recipes
 INFO 2023-10-26 09:36:31,802 views 29168 38108 Index page accessed! Redirect to /recipes
 INFO 2023-10-26 09:59:44,118 views 37796 36988 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 09:16:29,396 views 12164 23724 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 09:17:58,010 views 12164 9072 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 09:18:12,629 views 12164 9072 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 10:41:49,887 views 27248 9796 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 10:42:43,297 views 27248 2656 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 10:51:56,493 views 23980 10616 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 10:52:44,267 views 23980 27124 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 10:59:21,408 views 23980 23048 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:04:24,474 views 11436 23004 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:14:00,158 views 22244 28464 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:15:05,909 views 22244 28464 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:17:44,195 views 8888 17424 !qwer
+INFO 2023-11-09 12:18:19,815 views 26452 5812 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:18:32,934 views 26452 5812 !qwer
+INFO 2023-11-09 12:28:15,753 views 24704 792 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:28:21,944 views 24704 9712 !qwer
+INFO 2023-11-09 12:30:29,395 views 19800 15348 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:30:37,504 views 19800 15348 !!!!!!!!!!!!
+INFO 2023-11-09 12:30:37,509 views 19800 15348 !!!!!!!!!!!!
+INFO 2023-11-09 12:30:54,677 views 19800 15348 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:33:50,003 views 24024 18832 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:33:54,850 views 24024 25872 !!!!!!!!!!!!
+INFO 2023-11-09 12:33:54,853 views 24024 25872 !!!!!!!!!!!!
+INFO 2023-11-09 12:33:54,853 views 24024 25872 !valid
+INFO 2023-11-09 12:36:11,367 views 25936 1112 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:37:23,164 views 21436 23488 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:38:07,638 views 15332 28500 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:38:14,585 views 15332 28500 Successfully create recipe: Name: 'Торт ПРАГА', Description: 'Большой шоколадный торт', Roadmap: 'Обливаем все шоколадом и едим', Required time: 119, Image: , Author: ivanov
+INFO 2023-11-09 12:38:14,598 views 15332 28500 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:38:40,459 views 15332 28500 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:38:43,426 views 15332 23436 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:45:00,593 views 15332 22132 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:45:27,352 views 2656 8284 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:46:15,591 views 22708 27976 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:46:20,993 views 22708 27976 Successfully create recipe: Name: 'Торт ПРАГА', Description: 'Большой шоколадный торт', Roadmap: 'Обливаем все шоколадом и едим', Required time: 115, Image: торт прага.png, Author: ivanov
+INFO 2023-11-09 12:46:21,006 views 22708 27976 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:46:46,103 views 22708 27976 Successfully create recipe: Name: 'Торт ПРАГА', Description: 'Большой шоколадный торт', Roadmap: 'Обливаем все шоколадом и едим', Required time: 115, Image: saturn.png, Author: ivanov
+INFO 2023-11-09 12:46:46,112 views 22708 27976 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:47:40,577 views 22708 27976 Successfully create recipe: Name: 'Торт ПРАГА', Description: 'Большой шоколадный торт', Roadmap: 'Обливаем все шоколадом и едим', Required time: 115, Image: торт прага.png, Author: ivanov
+INFO 2023-11-09 12:47:40,601 views 22708 27976 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 12:47:49,495 views 22708 27976 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 13:42:25,348 views 16068 26300 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 13:47:00,882 views 25276 28584 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 13:47:04,431 views 25276 25052 Удаление!!!
+INFO 2023-11-09 13:47:44,980 views 20024 6964 Удаление!!!
+INFO 2023-11-09 13:47:44,990 views 20024 6964 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 13:52:36,944 views 4840 23140 Удаление!!! Name: 'Торт ПРАГА', Description: 'Большой шоколадный торт', Roadmap: 'Обливаем все шоколадом и едим', Required time: 115, Image: торт прага.png, Author: ivanov
+INFO 2023-11-09 13:52:36,957 views 4840 23140 Index page accessed! Redirect to /recipes
+INFO 2023-11-09 13:55:19,119 views 15720 18188 Successfully delete recipe (id=2): Name: 'Торт ПРАГА', Description: 'Большой шоколадный торт', Roadmap: 'Обливаем все шоколадом и едим', Required time: 115, Image: торт прага.png, Author: ivanov
+INFO 2023-11-09 13:55:19,137 views 15720 18188 Index page accessed! Redirect to /recipes

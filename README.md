@@ -203,3 +203,5 @@ Many-to-Many с таблицей товаров (Product).
 
 admin: super2000
 https://proglib.io/p/django-s-nulya-chast-2-registraciya-avtorizaciya-ogranichenie-dostupa-2022-06-08
+
+ivanov: zaq1Xsw2!@#
