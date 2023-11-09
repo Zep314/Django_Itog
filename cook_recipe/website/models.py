@@ -15,6 +15,9 @@ class Recipe(models.Model):
     image = models.CharField(max_length=255, blank=True, null=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE)
 
+    class Meta:
+        ordering = ['id']
+
     def __str__(self):
         return f'Name: \'{self.name}\', Description: \'{self.description}\', Roadmap: \'{self.roadmap}\', ' \
                f'Required time: {self.req_time}, Image: {self.image}, Author: {self.author}'

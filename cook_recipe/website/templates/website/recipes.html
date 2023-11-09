@@ -28,7 +28,7 @@
             </tr>
         </thead>
         <tbody>
-            {% for recipe in recipes %}
+            {% for recipe in page_obj %}
                 <tr>
                     <th scope="row" class="text-center align-middle">{{ forloop.counter }}</th>
                     <td class="align-middle">{{ recipe.name }}</td>
@@ -42,12 +42,12 @@
                             <form action="/recipe/" method="POST">
                                 {% csrf_token %}
                                 <input name="recipe_id" type="hidden" value="{{ recipe.id }}">
-                                <input type="submit" class="btn btn-primary" value="И">
+                                <input type="submit" class="btn btn-primary btn-edit" title="Редактировать" value="">
                             </form>
                             <form action="/delete/" method="POST">
                                 {% csrf_token %}
                                 <input name="recipe_id" type="hidden" value="{{ recipe.id }}">
-                                <input type="submit" class="btn btn-primary" value="У">
+                                <input type="submit" class="btn btn-primary btn-delete" title="Удалить" value="">
                             </form>
                         {% endif %}
                         </div>
@@ -59,31 +59,23 @@
 </div>
 
 
-    <div class="pagination justify-content-center">
-    {% if is_paginated %}
-
-      {% if page_obj.has_previous %}
-        
-        <a class="btn btn-outline-info mb-4 mr-1" href="?page=1">Первая</a>
-        <a class="btn btn-outline-info mb-4 mr-1" href="?page={{ page_obj.previous_page_number }}">Предыдущая</a>
-      {% endif %}
-
-      {% for num in page_obj.paginator.page_range %}
-        {% if page_obj.number == num %}
-          <a class="btn btn-info mb-4 mr-1" href="?page={{ num }}">{{ num }}</a>
-        {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
-          <a class="btn btn-outline-info mb-4 mr-1" href="?page={{ num }}">{{ num }}</a>
+<div class="pagination" style="margin-bottom: 10px">
+    <span class="step-links">
+        {% if page_obj.has_previous %}
+            <a href="?page=1">&laquo; Первая</a>
+            <a href="?page={{ page_obj.previous_page_number }}">пред.</a>
         {% endif %}
-      {% endfor %}
 
-      {% if page_obj.has_next %}
-        <a class="btn btn-outline-info mb-4 mr-1" href="?page={{ page_obj.next_page_number }}">Следующая</a>
-        <a class="btn btn-outline-info mb-4 mr-1" href="?page={{ page_obj.paginator.num_pages }}">Последняя</a>
-      {% endif %}
+        <span class="current">
+            Страница {{ page_obj.number }} из {{ page_obj.paginator.num_pages }}.
+        </span>
 
-    {% endif %}
-    </div>
-
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">след.</a>
+            <a href="?page={{ page_obj.paginator.num_pages }}">Последняя &raquo;</a>
+        {% endif %}
+    </span>
+</div>
 
 {% if user.is_authenticated %}
 <div class="text-body text-justify" style="margin-bottom: 10px;">

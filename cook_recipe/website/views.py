@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 import logging
 from django.views import View
 from django.views.generic import ListView
+from django.core.paginator import Paginator
 from .models import Recipe
 from .forms import RecipeForm
 from django.core.files.storage import FileSystemStorage
@@ -23,20 +24,27 @@ def index(request):
     return redirect("/recipes")
 
 
-class Recipes(View):
+class Recipes(ListView):
     """
     Класс - форма вывода содержимого базы данных по запросу
     """
-
+    paginate_by = 2
+    model = Recipe
     def get(self, request):
         """
         :param request: django объект - запрос
         :return:
         """
         recipes = Recipe.objects.all()
+        paginator = Paginator(recipes, 10)
+
+        page_number = request.GET.get("page")
+        page_obj = paginator.get_page(page_number)
 
         context = {'recipes': recipes,
+                   'page_obj': page_obj,
                    }
+        # print(f'{context}')
         return render(request, 'website/recipes.html', context)
 
 
