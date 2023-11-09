@@ -35,19 +35,19 @@
                     {{ form.description.label_tag }}
                     {% render_field form.description class="form-control" %}
                 </div>
-                <div style="text-align: left;">
-                    {{ form.roadmap.label_tag }}
-                    {% render_field form.roadmap class="form-control" %}
-                </div>
 
+
+            </div>
+            <div class="col-sm">
                 <div class="row">
                     <div  class="col-sm" style="text-align: left;">
                         {{ form.req_time.label_tag }}
                         {% render_field form.req_time class="form-control" %}
+                    {{ form.roadmap.label_tag }}
+                    {% render_field form.roadmap class="form-control" %}
                     </div>
                 </div>
-            </div>
-            <div class="col-sm">
+
                 {% if form.image.value %}
                     <div>
                         <img class="img-thumbnail" src="/media/{{ form.image.value }}" alt="{{ form.image.value }}" style="width: 200px; height: 200px;">
