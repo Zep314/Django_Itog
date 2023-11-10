@@ -25,41 +25,46 @@
             {{ hidden_field }}
         {% endfor %}
 
-        <div class="row justify-content-start">
-            <div class="col-sm">
+        <table class="table">
+            <tr>
+                <td>
                 <div style="text-align: left;">
                     {{ form.name.label_tag }}
                     {% render_field form.name class="form-control" %}
-                </div>
-                <div style="text-align: left;">
-                    {{ form.description.label_tag }}
-                    {% render_field form.description class="form-control" %}
+
+                    {{ form.req_time.label_tag }}
+                    {% render_field form.req_time class="form-control" %}
                 </div>
 
-
-            </div>
-            <div class="col-sm">
-                <div class="row">
+                </td>
+                <td>
                     <div  class="col-sm" style="text-align: left;">
-                        {{ form.req_time.label_tag }}
-                        {% render_field form.req_time class="form-control" %}
                     {{ form.roadmap.label_tag }}
                     {% render_field form.roadmap class="form-control" %}
                     </div>
-                </div>
 
-                {% if form.image.value %}
-                    <div>
-                        <img class="img-thumbnail" src="/media/{{ form.image.value }}" alt="{{ form.image.value }}" style="width: 200px; height: 200px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div style="text-align: left;">
+                        {{ form.description.label_tag }}
+                        {% render_field form.description class="form-control" %}
                     </div>
-                {%  endif %}
-                <div style="text-align: left;">
-                    {{ form.image.label_tag }}
-                    {% render_field form.image class="form-control" %}
-                </div>
-            </div>
-
-        </div>
+                </td>
+                <td>
+                    <div style="text-align: left;">
+                        {{ form.image.label_tag }}
+                        {% render_field form.image class="form-control" %}
+                        {% if form.image.value %}
+                            <div>
+                                <img class="img-thumbnail" src="/media/{{ form.image.value }}" alt="{{ form.image.value }}" style="width: 200px; height: 200px;">
+                            </div>
+                        {%  endif %}
+                    </div>
+                </td>
+            </tr>
+        </table>
 
         <div style="display: flex; gap: 50px; justify-content: center; margin-top: 20px;margin-bottom: 20px;">
             <input type="submit" class="btn btn-primary" value="Сохранить">

@@ -9,9 +9,6 @@
 
 ### Решение
 
-<details>
-<summary>Повторяем действия для создания приложения:</summary>
-Выполняем стандартные процедуры для запуска нового приложения в новом проекте:
 
 Устанавливаем Django:
 
@@ -35,17 +32,17 @@
 
 Редактируем файлы:
 *********
-- [Django_dz6/Django_dz6/Django_dz6/settings.py](/Django_dz6/Django_dz6/settings.py)
-- [Django_dz6/Django_dz6/Django_dz6/urls.py](/Django_dz6/Django_dz6/urls.py)
-- [Django_dz6/Django_dz6/myapp6/urls.py](/Django_dz6/myapp6/urls.py)
-- [Django_dz6/Django_dz6/myapp6/views.py](/Django_dz6/myapp6/views.py)
+- [Django_Itog/cook_recipe/website/settings.py](/cook_recipe/cook_recipe/settings.py)
+- [Django_Itog/cook_recipe/website/urls.py](/cook_recipe/cook_recipe/urls.py)
+- [Django_Itog/cook_recipe/website/urls.py](/cook_recipe/website/urls.py)
+- [Django_Itog/cook_recipe/website/views.py](/cook_recipe/website/views.py)
 
 Создаем модель данных, в соответствие с заданием. 
 Модель данных находится в файле: 
 
-- [Django_dz6/Django_dz6/myapp6/models.py](/Django_dz6/myapp6/models.py)
+- [Django_Itog/cook_recipe/website/models.py](/cook_recipe/website/models.py)
 
-Для каждой таблицы были реализованы все **CRUD** методы. Для таблицы заказов (Order) выполнена поддержка связи 
+Для временного заполнения таблиц были реализованы некоторые из **CRUD** методов. Для таблицы заказов (Order) выполнена поддержка связи 
 Many-to-Many с таблицей товаров (Product). 
 
 Примеры методов находятся в пакете *commands*:
@@ -153,7 +150,6 @@ Many-to-Many с таблицей товаров (Product).
 Заходим в панель управления, вводим заданный ранее пароль.
 
 Далее можно управлять данными, которые находятся у нас в безе.
-</details>
 
 Так же в проект добавляем отладочную панель **Django Debug Toolbar**
 
