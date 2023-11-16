@@ -151,7 +151,7 @@
 
 ## Результат работы:
 
-Сайт расположен по адресу: [http://zep314.pythonanywhere.com/](http://zep314.pythonanywhere.com/)
+Сайт расположен по адресу: [https://zep315.pythonanywhere.com/](https://zep315.pythonanywhere.com/)
 
 Страница списка заказов
 ![screen1.png](screen1.png)
@@ -159,7 +159,7 @@
 Страница редактирования заказа
 ![screen2.png](screen2.png)
 
-admin: super2000
+
 https://proglib.io/p/django-s-nulya-chast-2-registraciya-avtorizaciya-ogranichenie-dostupa-2022-06-08
 
 ivanov: zaq1Xsw2!@#
